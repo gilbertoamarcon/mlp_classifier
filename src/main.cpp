@@ -3,16 +3,16 @@
 
 // Parameters
 #define I 				5					// Number of inputs
-#define J				10					// Number of HL units
+#define J				5					// Number of HL units
 #define K				2					// Number of outputs
-#define N				1000000				// Number of epochs
+#define N				100000				// Number of epochs
 #define C				0					// Number of initial candidates
-#define D				0.0050				// Initial step size
+#define D				0.010				// Initial step size
 #define	P				200					// Training set size 
 #define	LOAD			1					// Load training set size 
 #define	WEIGHTS_PATH	"res/weights"		// Weights file name
-#define	TRAIN_SET_FILE	"data/train1.csv"	// Train set file name
-#define	TEST_SET_FILE	"data/test2.csv"	// Test set file name
+#define	TRAIN_SET_FILE	"data/train2.csv"	// Train set file name
+#define	TEST_SET_FILE	"data/test3.csv"	// Test set file name
 
 int load_data(double *s, double *d, char *filename){
 

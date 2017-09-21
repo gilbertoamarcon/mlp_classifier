@@ -98,7 +98,7 @@ void Mlp::train(double *s, double *d, int P){
 void Mlp::descend(double *s, double *d, int P,int N){
 	for(int n = 0; n < N; n++){
 		itTrain(s,d,P,D);
-		if(n%2000 == 0) printf("Iteration %9d/%d (%05.2f %) E: %10.9f\n",n,N,100*(double)n/N,mainW->E);
+		if(n%100 == 0) printf("Iteration %9d/%d (%05.2f %) E: %10.9f\n",n,N,100*(double)n/N,mainW->E);
 	}
 }
 
