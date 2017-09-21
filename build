@@ -1,0 +1,2 @@
+g++ main.cpp mlp.cpp -Wall -o main -lm -w -lGL -lGLU -lglut -std=c++11
+./main
